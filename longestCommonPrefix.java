@@ -17,11 +17,7 @@ public class Prefix {
         System.out.println("return = " + p1.longestCommonPrefix(testString));        
     }
     
-    public String longestCommonPrefix(String[ ] strs){
-//        System.out.println("strs[0] = " + strs[0]);
-//        System.out.println("strs.length = " + strs.length);
-//        System.out.println("strs[0].length() = " + strs[0].length());
-        
+    public String longestCommonPrefix(String[ ] strs){        
 // 當沒有東西的時候就回傳空值
         if(strs == null || strs.length == 0 ) return "";
  // 預設Prefix 為第一個字串
